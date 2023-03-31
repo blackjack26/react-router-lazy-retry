@@ -3,8 +3,10 @@
 A wrapper around React Router routes to add a forced webpage reload when a lazy loaded resource
 is not found. Supports React Router v6.9.0 and on (when lazy loading was introduced).
 
-[![Version](https://img.shields.io/npm/v/react-router-lazy-retry.svg)](https://www.npmjs.com/package/react-router-lazy-retry)
-[![License](https://img.shields.io/npm/l/react-router-lazy-retry.svg)](https://www.npmjs.com/package/react-router-lazy-retry)
+[![Version](https://img.shields.io/npm/v/react-router-lazy-retry?style=flat-square)](https://www.npmjs.com/package/react-router-lazy-retry)
+[![License](https://img.shields.io/npm/l/react-router-lazy-retry?style=flat-square)](https://www.npmjs.com/package/react-router-lazy-retry)
+[![npm peer dependency version](https://img.shields.io/npm/dependency-version/react-router-lazy-retry/peer/react-router-dom?style=flat-square)](https://reactrouter.com/)
+
 
 > ⚠️ This requires **react-router-dom@6.9.0** or greater ⚠️
 
