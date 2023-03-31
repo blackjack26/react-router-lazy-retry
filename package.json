@@ -2,6 +2,17 @@
   "name": "react-router-lazy-retry",
   "version": "1.0.0",
   "description": "React Router lazy loading retry utility",
+  "homepage": "https://github.com/blackjack26/react-router-lazy-retry#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackjack26/react-router-lazy-retry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blackjack26/react-router-lazy-retry/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "exports": {
     ".": {
       "import": {

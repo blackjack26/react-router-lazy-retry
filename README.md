@@ -55,7 +55,11 @@ const routes = [
     ]
   }
 ] 
+
 const router = createLazyRouterWithRetry('browser', routes)
+
+// Replacement for:
+// const router = createBrowserRouter(routes)
 ```
 
 ### Supported Routers
