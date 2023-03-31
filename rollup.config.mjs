@@ -1,7 +1,5 @@
 import terser from '@rollup/plugin-terser'
 
-const extensions = ['.js', '.ts']
-
 export default {
   input: './out/index.js',
   output: [

@@ -1,6 +1,6 @@
 {
   "name": "react-router-lazy-retry",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Router lazy loading retry utility",
   "homepage": "https://github.com/blackjack26/react-router-lazy-retry#readme",
   "repository": {
@@ -24,7 +24,9 @@
   },
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.cjs.js",
-  "files": ["dist/**/*"],
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "build": "npm run clean && npm run build:types && rollup -c rollup.config.mjs",
     "build:types": "tsc --outDir out --declarationDir dist/types --declaration true",
