@@ -1,4 +1,4 @@
-import { createBrowserRouter, createHashRouter, createMemoryRouter } from 'react-router-dom'
+import type { createBrowserRouter, createHashRouter, createMemoryRouter } from 'react-router-dom'
 
 export interface RouterOptionsMap {
   browser: Parameters<typeof createBrowserRouter>[1]
